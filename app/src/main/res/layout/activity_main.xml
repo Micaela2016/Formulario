@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+
+        ></EditText>
+
+    <EditText
+        android:id="@+id/etFecha"
+        android:layout_width="match_parent"
+        android:layout_height="172dp"
+        android:layout_below="@+id/etNombre"
+        android:clickable="true"
+        android:focusable="false"
+        android:hint="Fecha"
+        android:inputType="date"
+
+        ></EditText>
+
+    <EditText
+        android:id="@+id/etTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etFecha"
+        android:hint="Telefono"
+
+        ></EditText>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etTelefono"
+        android:hint="Email"
+
+
+        ></EditText>
+
+    <EditText
+        android:id="@+id/etDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:layout_below="@+id/etEmail"
+        android:hint="Descripcion Contacto"
+
+
+        ></EditText>
+
+    <Button
+        android:id="@+id/btnSiguiente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etDescripcion"
+        android:textColor="@color/black"
+        android:theme="@style/MiBotonRaised"
+        android:text="Siguiente"
+
+        ></Button>
+
+
+</LinearLayout>

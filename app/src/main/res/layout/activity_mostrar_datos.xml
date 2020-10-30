@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MostrarDatos">
+
+    <TextView
+        android:id="@+id/tvConfirmarDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Confirmar Datos"
+        android:textSize="30dp"
+        android:textStyle="bold"
+
+        ></TextView>
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/tvConfirmarDatos"></TextView>
+
+    <TextView
+        android:id="@+id/tvFecha"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/tvNombre"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/tvTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/tvFecha"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/tvTelefono"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/tvDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/tvEmail"
+        ></TextView>
+
+    <Button
+        android:id="@+id/btnEditarDatos"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/tvDescripcion"
+        android:text="Editar Datos"
+        android:textColor="@color/black"
+        android:theme="@style/MiBotonRaised"
+        android:gravity="center"
+
+        ></Button>
+
+
+</LinearLayout>
